@@ -55,6 +55,7 @@ button:hover, button.active {
 	background-color: #00cccc;
 	color: #fff;
 	cursor: pointer;}
+
 /* Gallery of images */
 #gallery {
 	text-align: center;
