@@ -1,7 +1,7 @@
 (function() {
 
-  var $imgs = $('gallery img');        
-  var $buttons = $('‘buttons');                   
+  var $imgs = $('#gallery img');        
+  var $buttons = $('#buttons');                   
   var tagged = {};                                
 
   $imgs.each(function() {                         
