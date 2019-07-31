@@ -72,11 +72,13 @@ button:hover, button.active {
 	float: left;}
 
 #gallery img:hover {
-    width:600px;
-    height: 300px;
-    border: 8px solid #fff;
-    margin: inherit;
-    -webkit-box-shadow: 5px 5px 9px 9px #ebebeb;
-    box-shadow: 5px 5px 9px 9px #ebebeb;
-    float: none;
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    box-shadow:
+                1px 1px #ebebeb,
+                2px 2px #ebebeb,
+                3px 3px #ebebeb;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
 }
