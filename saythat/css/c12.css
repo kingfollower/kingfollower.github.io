@@ -39,7 +39,8 @@ h4 {
 	margin: 5px 0 5px 0;}
 #buttons, #search {
 	text-align: center;
-	margin-bottom: 30px;}
+	margin-bottom: 30px;
+    max-width: 1020px;}
 
 /* Filter buttons */
 buttons {
