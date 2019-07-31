@@ -43,11 +43,6 @@ h4 {
     max-width: 1020px;}
 
 /* Filter buttons */
-buttons {
-    text-align: center;
-    max-width: 1020px;
-    margin: 0 auto;
-}
 
 button {
 	background-color: #d7d7d7;
