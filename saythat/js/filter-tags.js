@@ -1,5 +1,4 @@
-(function() {
-
+(function () {
   var $imgs = $('#gallery img');        
   var $buttons = $('#buttons');                   
   var tagged = {};                                
