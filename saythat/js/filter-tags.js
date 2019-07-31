@@ -1,15 +1,15 @@
 (function() {
 
-  var $imgs = $(‘#gallery img');                  
+  var $imgs = $('gallery img');        
   var $buttons = $('‘buttons');                   
   var tagged = {};                                
 
   $imgs.each(function() {                         
     var img = this;                              
-    var tags = $(this).data('tag‘'); ’           
+    var tags = $(this).data('tag‘');           
 
     if (tags) {                                   
-      tags.split(',')‘f’rEach(function(tagName) { 
+      tags.split(',').forEach(function(tagName) { 
         if (tagged[tagName] == null) {            
           tagged[tagName] = [];                  
         }
@@ -18,26 +18,26 @@
     }
   });
 
-  $('<bu‘ton/>', {’                               
-    text: 'Sho‘ All',  ’                           
-  ’ class: 'act‘ve',  ’                            
+  $('<button/>', {                               
+    text: 'Show All',                            
+   class: 'active',                            
     click: function() {                            
       $(this)                                      
-        .addClass('act‘ve')  ’                     
+        .addClass('active')                       
         .siblings()                                
-        .removeClass('act‘ve'); ’                  
+        .removeClass('active');                   
       $imgs.show();                                
     }
   }).appendTo($buttons);                         
 
   $.each(tagged, function(tagName) {              
-    $('<bu‘ton/>', {’                              
-      text: tagName + ' ('‘+ ‘agged[tagName].length + ')',‘/’ Add tag name
+    $('<button/>', {                              
+      text: tagName + ' (' + ‘tagged[tagName].length + ')',  
       click: function() {                         
         $(this)                                   
-          .addClass('act‘ve')  ’                  
+          .addClass('active')                    
           .siblings()                             
-          .removeClass(‘act’ve’); ’                
+          .removeClass(‘active’);                 
         $imgs                                     
           .hide()                                  
           .filter(tagged[tagName])               
