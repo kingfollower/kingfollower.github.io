@@ -70,3 +70,9 @@ button:hover, button.active {
     -webkit-box-shadow: 0 0 3px 3px #ebebeb;
     box-shadow: 0 0 3px 3px #ebebeb;
 	float: left;}
+
+#gallery img:hover {
+    width:600px;
+    -webkit-box-shadow: 5px 5px 9px 9px #ebebeb;
+    box-shadow: 5px 5px 9px 9px #ebebeb;
+}
