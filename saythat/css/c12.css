@@ -40,7 +40,7 @@ h4 {
 #buttons, #search {
 	text-align: center;
 	margin-bottom: 30px;
-    margin: 0 auto;
+    margin: auto;
     max-width: 1020px;}
 
 /* Filter buttons */
