@@ -15,17 +15,13 @@ header {
 	min-height: 50px;
 	text-align: center;}
 
-h1 {
-  background-image: url(.../img/saythat-header.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin: 10px auto 5px auto;
+h1 {margin: 10px auto 5px auto;
   width: 516px;
   height: 21px;
   text-align: center;
   text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;}
+  color: whitesmoke;
+  font-size: 300%}
 
 h2 {
 	font-size: 180%;
