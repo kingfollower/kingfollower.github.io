@@ -85,3 +85,9 @@ button:hover, button.active {
 .banner {
     min-width: 1020px;
    float:none;}
+
+/* box and footer */
+#box {
+    min-width: 1600px;
+    min-height: 350px;
+}
