@@ -9,11 +9,13 @@ body {
 
 /* Header */
 header {
-	background-color: #333333;
+	background-image: url("img/SayThatPodcast.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
 	margin: 0 0 40px 0;
 	padding: 10px 0 0 0;
 	min-height: 150px;
-	text-align: center;}
+	text-align: left bottom;}
 
 h1 {margin: 10px auto 5px auto;
   text-align: center center;
