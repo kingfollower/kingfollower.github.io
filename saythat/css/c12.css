@@ -70,14 +70,18 @@ button:hover, button.active {
 	border-radius: 3px;
 	border: 8px solid #fff;
 	margin: 6px;
-    -webkit-box-shadow: 0 0 3px 3px #ebebeb;
-    box-shadow: 0 0 3px 3px #ebebeb;
 	float: left;}
 
-#gallery img:hover {
+#gallery img.episode:hover {
     -webkit-transform: scale(2);
     -ms-transform: scale(2);
     transform: scale(2);}
 
+#gallery img.episode {
+    -webkit-box-shadow: 0 0 3px 3px #ebebeb;
+    box-shadow: 0 0 3px 3px #ebebeb;
+}
+
 #gallery img.banner {
-    min-width: 1200px;}
+    min-width: 1200px;
+    Text-align:left;}
