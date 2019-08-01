@@ -72,16 +72,16 @@ button:hover, button.active {
 	margin: 6px;
 	float: left;}
 
-#gallery img.episode:hover {
+.episode:hover {
     -webkit-transform: scale(2);
     -ms-transform: scale(2);
     transform: scale(2);}
 
-#gallery img.episode {
+.episode {
     -webkit-box-shadow: 0 0 3px 3px #ebebeb;
     box-shadow: 0 0 3px 3px #ebebeb;
 }
 
-#gallery img.banner {
+.banner {
     min-width: 1200px;
     Text-align:left;}
