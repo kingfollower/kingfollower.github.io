@@ -84,4 +84,4 @@ button:hover, button.active {
 
 .banner {
     min-width: 1200px;
-    text-align:left;}
+   float:left;}
