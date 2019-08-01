@@ -83,7 +83,7 @@ button:hover, button.active {
 }
 
 .banner {
-    min-width: 920px;
+    max-height: 120px;
    float:none;}
 
 
