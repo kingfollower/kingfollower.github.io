@@ -79,5 +79,5 @@ button:hover, button.active {
     -ms-transform: scale(2);
     transform: scale(2);}
 
-#gallery.banner{
+.banner{
     min-width: "1200px";}
