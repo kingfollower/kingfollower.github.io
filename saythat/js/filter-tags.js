@@ -34,7 +34,7 @@
         
     $.each(tagged, function(tagName) {
         $('<button/>', {
-            text: tagName,
+            text: tagName ,
             click: function() {
                 $(this)
                     .addClass('active')
