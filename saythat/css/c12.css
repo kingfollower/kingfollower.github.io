@@ -14,8 +14,9 @@ header {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
+	margin: 0 0 40px 0;
 	padding: 10px 0 0 0;
-	min-height: 350;
+	min-height: 350px;
 	text-align: left bottom;}
 
 h1 {margin: 10px auto 5px auto;
@@ -61,7 +62,7 @@ button:hover, button.active {
 #gallery {
 	text-align: center;
 	max-width: 1020px;
-	margin: 0 0 40px 0;}
+	margin: 0 auto;}
 
 #gallery img {
 	width: 300px;
