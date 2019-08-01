@@ -86,11 +86,4 @@ button:hover, button.active {
     min-width: 1020px;
    float:none;}
 
-/* footer */
-footer {
-    min-width: 1600px;
-    min-height: 350px;
-    text-align: center;
-    position: absolute;
-    bottom: 0px;
-}
+
