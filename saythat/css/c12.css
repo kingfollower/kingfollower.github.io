@@ -78,8 +78,6 @@ button:hover, button.active {
     grid-template-columns: 1fr 1fr 1fr;}
 
 #gallery img {
-	width: 360px;
-	height: 203px;
 	margin: 6px;
     }
 
@@ -89,6 +87,8 @@ button:hover, button.active {
     transform: scale(2);}
 
 .episode {
+    width: 360px;
+    height: 203px;
     -webkit-box-shadow: 2px 2px #ebebeb;
     box-shadow: 2px 2px #ebebeb;
 	border: 3px solid #fff;
