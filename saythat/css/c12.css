@@ -95,7 +95,8 @@ button:hover, button.active {
     float: left;}
 
 .banner {
-    min-width: 1200px;
+    width: 720px;
+    height:205px;
     grid-row: 1/2;
     grid-column: 1/4;}
 
