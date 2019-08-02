@@ -74,8 +74,7 @@ button:hover, button.active {
 	margin: 30px auto 60px auto;
     grid-column: 2/3;
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 143px 175px 175px 175px;}
+    grid-template-rows: 143px auto;}
 
 #gallery img {
 	width: 300px;
@@ -92,11 +91,11 @@ button:hover, button.active {
     -webkit-box-shadow: 2px 2px #ebebeb;
     box-shadow: 2px 2px #ebebeb;
 	border: 3px solid #fff;
-}
+    grid-row: 2/3;
+    float: none;}
 
 .banner {
     min-width: 1200px;
-    grid-column: 1/4;
     grid-row: 1/2;}
 
 /* Footer */
