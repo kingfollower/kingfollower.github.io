@@ -68,7 +68,8 @@ button:hover, button.active {
 	width: 300px;
 	height: 150px;
 	margin: 6px;
-	float: left;}
+	float: left;
+    overflow: auto}
 
 .episode:hover {
     -webkit-transform: scale(2);
