@@ -67,7 +67,7 @@ button:hover, button.active {
 	margin: 30px auto 60px auto;
     display:grid;
     grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 175px 175px 175px;
+    grid-template-rows: 143px 175px 175px 175px;
     overflow: hidden;}
 
 #gallery img {
@@ -88,7 +88,9 @@ button:hover, button.active {
 }
 
 .banner {
-    min-width: 1433px;}
+    min-width: 1433px;
+    grid-column: 1/4;
+    grid-row: 1/2;}
 
 /* Footer */
 #footer {
