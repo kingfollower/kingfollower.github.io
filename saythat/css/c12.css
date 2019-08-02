@@ -63,15 +63,16 @@ button:hover, button.active {
 /* Gallery of images */
 #gallery {
 	text-align: center;
-	max-width: 1020px;
+	max-width: 1433px;
 	margin: 30px auto 60px auto;
+    display:grid;
+    grid-template-columns: auto auto auto; 
     overflow: hidden;}
 
 #gallery img {
 	width: 300px;
 	height: 150px;
 	margin: 6px;
-	float: left;
     }
 
 .episode:hover {
@@ -86,8 +87,7 @@ button:hover, button.active {
 }
 
 .banner {
-    min-width: 1433px;
-   float:none;}
+    min-width: 1433px;}
 
 /* Footer */
 #footer {
