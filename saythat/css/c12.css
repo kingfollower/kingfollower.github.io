@@ -74,7 +74,7 @@ button:hover, button.active {
 	margin: 30px auto 60px auto;
     grid-column: 2/3;
     display:grid;
-    grid-template-rows: 143px auto auto auto;}
+    grid-template-rows: 143px;}
 
 #gallery img {
 	width: 300px;
@@ -91,7 +91,6 @@ button:hover, button.active {
     -webkit-box-shadow: 2px 2px #ebebeb;
     box-shadow: 2px 2px #ebebeb;
 	border: 3px solid #fff;
-    grid-row: 2/3;
     float: left;}
 
 .banner {
