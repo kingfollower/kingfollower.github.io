@@ -92,7 +92,7 @@ button:hover, button.active {
     box-shadow: 2px 2px #ebebeb;
 	border: 3px solid #fff;
     grid-row: 2/3;
-    float: none;}
+    float: left;}
 
 .banner {
     min-width: 1200px;
