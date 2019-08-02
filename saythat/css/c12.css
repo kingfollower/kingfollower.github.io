@@ -66,8 +66,8 @@ button:hover, button.active {
 	max-width: 1433px;
 	margin: 30px auto 60px auto;
     display:grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 175px 175px 175px;
     overflow: hidden;}
 
 #gallery img {
