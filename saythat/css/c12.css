@@ -61,6 +61,13 @@ button:hover, button.active {
 	cursor: pointer;}
 
 /* Gallery of images */
+
+#content {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: auto;}
+
 #gallery {
 	text-align: center;
 	max-width: 1433px;
