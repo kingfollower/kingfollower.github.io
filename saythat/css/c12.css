@@ -88,7 +88,7 @@ button:hover, button.active {
 }
 
 .banner {
-    min-width: 1433px;
+    min-width: 1200px;
     grid-column: 1/4;
     grid-row: 1/2;}
 
