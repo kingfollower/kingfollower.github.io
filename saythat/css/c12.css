@@ -72,6 +72,7 @@ button:hover, button.active {
 	text-align: center;
 	max-width: 1433px;
 	margin: 30px auto 60px auto;
+    grid-column: 2/3;
     display:grid;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 143px 175px 175px 175px;
