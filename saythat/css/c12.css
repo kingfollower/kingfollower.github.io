@@ -33,7 +33,9 @@ h4 {
 	color: whitesmoke;
 	display: inline-block;
 	font-size: 120%;
-	margin: 5px 0 5px 0;}
+	margin: 5px 0 5px 0;
+    font-family: 'Karla', sans-serif;}
+
 #buttons, #search {
 	text-align: center;
 	margin-bottom: 30px;
