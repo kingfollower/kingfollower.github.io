@@ -90,4 +90,5 @@ button:hover, button.active {
 #footer {
     text-align: center;
     margin: 100px auto 30px auto;
+    width: 1700px;
 }
