@@ -75,8 +75,7 @@ button:hover, button.active {
     grid-column: 2/3;
     display:grid;
     grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 143px 175px 175px 175px;
-    overflow: hidden;}
+    grid-template-rows: 143px 175px 175px 175px;}
 
 #gallery img {
 	width: 300px;
