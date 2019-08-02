@@ -65,7 +65,7 @@ button:hover, button.active {
 	text-align: center;
 	max-width: 1020px;
 	margin: 30px auto 60px auto;
-    overflow: auto;}
+    overflow: hidden;}
 
 #gallery img {
 	width: 300px;
@@ -92,6 +92,4 @@ button:hover, button.active {
 /* Footer */
 #footer {
     text-align: center;
-    margin: 100px auto 30px auto;
-    width: 1700px;
-}
+    margin: 100px auto 30px auto;}
