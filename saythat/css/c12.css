@@ -74,7 +74,7 @@ button:hover, button.active {
 	margin: 30px auto 60px auto;
     grid-column: 2/3;
     display:grid;
-    grid-template-rows: 143px auto;}
+    grid-template-rows: 143px auto auto auto;}
 
 #gallery img {
 	width: 300px;
