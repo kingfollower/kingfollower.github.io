@@ -98,9 +98,8 @@ button:hover, button.active {
     z-index: 5;}
 
 .banner {
-    width: 720px;
     height:106px;
-    margin-right: 50px;
+    clip-path: inset(0 60% 0 0);
     float: left;}
 
 /* Footer */
