@@ -94,7 +94,8 @@ button:hover, button.active {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-    clip-path: inset(0 84% 63% 0);}
+    clip-path: inset(0 84% 63% 0);
+    z-index: 5;}
 
 .banner {
     width: 720px;
