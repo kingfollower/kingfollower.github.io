@@ -100,7 +100,8 @@ button:hover, button.active {
 .banner {
     height:106px;
     clip-path: inset(0 30% 0 0);
-    float: left;}
+    float: left;
+    overflow: hidden;}
 
 /* Footer */
 #footer {
