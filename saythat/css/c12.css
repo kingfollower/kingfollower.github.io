@@ -99,7 +99,7 @@ button:hover, button.active {
 
 .banner {
     height:106px;
-    clip-path: inset(0 60% 0 0);
+    clip-path: inset(0 30% 0 0);
     float: left;}
 
 /* Footer */
