@@ -98,6 +98,7 @@ button:hover, button.active {
 .banner {
     width: 720px;
     height:106px;
+    margin-right: 300px;
     float: left;}
 
 /* Footer */
