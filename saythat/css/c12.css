@@ -83,8 +83,8 @@ button:hover, button.active {
     transform: scale(2);}
 
 .episode {
-    width: 360px;
-    height: 203px;
+    width: 280px;
+    height: 210px;
     -webkit-box-shadow: 2px 2px #ebebeb;
     box-shadow: 2px 2px #ebebeb;
 	border: 3px solid #fff;
