@@ -85,6 +85,11 @@ button:hover, button.active {
 	border: 3px solid #fff;
     float: left;}
 
+.episode:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);}
+
 .banner {
     height:106px;
     clip-path: inset(0 30% 0 0);
