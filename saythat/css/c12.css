@@ -73,9 +73,7 @@ button:hover, button.active {
 	margin: 30px auto 20px auto;
     grid-column: 2/3;}
 
-#gallery img {
-	margin: 6px;
-    }
+#gallery img {}
 
 .episode {
     width: 280px;
@@ -84,10 +82,10 @@ button:hover, button.active {
     box-shadow: 2px 2px #ebebeb;
 	border: 3px solid #fff;
     float: left;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    clip-path: inset(0 82% 34% 0);
+    -webkit-transform: rotate(90deg) scale(2);
+    -ms-transform: rotate(90deg) scale(2);
+    transform: rotate(90deg) scale(2);
+    clip-path: inset(0 68% 20% 0);
     z-index: 5;}
 
 .episode:hover {
