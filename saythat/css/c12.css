@@ -73,7 +73,9 @@ button:hover, button.active {
 	margin: 30px auto 20px auto;
     grid-column: 2/3;}
 
-#gallery img {}
+#gallery img {
+    margin: 6px;
+}
 
 .episode {
     width: 280px;
