@@ -78,9 +78,9 @@ button:hover, button.active {
     }
 
 .episode:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(14);
+    -ms-transform: scale(14);
+    transform: scale(14);
     clip-path: inset(0 0 0 0);
     z-index: 2;}
 
@@ -91,11 +91,10 @@ button:hover, button.active {
     box-shadow: 2px 2px #ebebeb;
 	border: 3px solid #fff;
     float: left;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg) scale(10);
+    -ms-transform: rotate(90deg) scale(10);
+    transform: rotate(90deg) scale(10);
     clip-path: inset(0 82% 34% 0);
-    transform: scale(5);
     z-index: 5;}
 
 .banner {
