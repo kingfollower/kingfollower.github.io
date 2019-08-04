@@ -82,12 +82,11 @@ button:hover, button.active {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     clip-path: inset(0 0 0 0);
-    z-index: 2;
-    margin: 10px;}
+    z-index: 2;}
 
 .episode {
-    width: 28px;
-    height: 21px;
+    width: 140px;
+    height: 105px;
     -webkit-box-shadow: 2px 2px #ebebeb;
     box-shadow: 2px 2px #ebebeb;
 	border: 3px solid #fff;
