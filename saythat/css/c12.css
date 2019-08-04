@@ -84,9 +84,9 @@ button:hover, button.active {
     box-shadow: 2px 2px #ebebeb;
 	border: 3px solid #fff;
     float: left;
-    -webkit-transform: rotate(90deg) scale(2);
-    -ms-transform: rotate(90deg) scale(2);
-    transform: rotate(90deg) scale(2);
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
     clip-path: inset(0 68% 20% 0);
     z-index: 5;}
 
