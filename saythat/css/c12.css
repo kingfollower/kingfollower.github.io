@@ -65,7 +65,7 @@ button:hover, button.active {
 #content {
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-columns: 1fr 10fr 1fr;
     grid-template-rows: auto;}
 
 #gallery {
