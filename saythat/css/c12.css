@@ -73,7 +73,7 @@ button:hover, button.active {
 	margin: 30px auto 20px auto;
     grid-column: 2/3;
     display: grid;
-    place-items:center stretch;}
+    place-items:start;}
 
 #gallery img {
     margin: 6px;
