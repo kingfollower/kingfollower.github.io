@@ -71,7 +71,9 @@ button:hover, button.active {
 #gallery {
 	text-align: center;
 	margin: 30px auto 20px auto;
-    grid-column: 2/3;}
+    grid-column: 2/3;
+    display: grid;
+    place-items:center;}
 
 #gallery img {
     margin: 6px;
@@ -82,8 +84,7 @@ button:hover, button.active {
     height: 180px;
     -webkit-box-shadow: 2px 2px #ebebeb;
     box-shadow: 2px 2px #ebebeb;
-	border: 3px solid #fff;
-    float: left;}
+	border: 3px solid #fff;}
 
 .episode:hover {
     -webkit-transform: scale(1.8));
