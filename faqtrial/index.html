@@ -21,7 +21,22 @@
         ol ol {
 			margin: 0 0 0 2em;}
       
-        .collapsibleList a, label {
+        .collapsibleList main, label {
+			letter-spacing: .05em;
+			font-variant: small-caps;
+			font-weight: bold !important;
+		    position: relative;
+		    display: block;
+		    padding: .4em .4em .4em 2em;
+		    *padding: .4em;
+		    margin: .5em 0;
+		    background: #CAAD6B;
+		    color: #FFF;
+		    text-decoration: none !important;
+		    border-radius: .3em;
+		    transition: all .3s ease-out;}
+        
+        .collapsibleList sub, label {
 			letter-spacing: .05em;
 			font-variant: small-caps;
 			font-weight: bold !important;
@@ -36,7 +51,24 @@
 		    border-radius: .3em;
 		    transition: all .3s ease-out;}
 
-		.collapsibleList a:before {
+		.collapsibleList main:before {
+		    content: counter(li, lower-alpha);
+		    counter-increment: li;
+		    position: absolute; 
+		    left: -1.3em;
+		    top: 50%;
+		    margin-top: -1.3em;
+		    background: #581A0F;
+		    color: #FFFFFF;
+		    height: 2em;
+		    width: 2em;
+		    line-height: 2em;
+		    border: .2em solid #FFF;
+		    text-align: center;
+		    border-radius: 2em;
+		    transition: all .3s ease-out;}
+        
+        .collapsibleList sub:before {
 		    content: counter(li, lower-alpha);
 		    counter-increment: li;
 		    position: absolute; 
@@ -68,10 +100,9 @@
                         <p>Disclaimer: The development, preparation and publication of this work has been undertaken with great care. However, the publisher, editors, employees and agents of Plan to Protect&reg;, are not responsible for any errors contained herein or for consequences that may ensue from use of materials or information contained in this work. The information contained herein is intended to assist organizations in establishing policy. Plan to Protect&reg; and references to the manual are only as current as the date of the publication and does not reflect subsequent changes in law. This information is distributed with the understanding that it does not constitute legal advice. Organizations are strongly encouraged to seek legal counsel as well as counsel from your insurance company when establishing a policy.</p>
                         <h3 style="color: #e4771a;">FAQ Topics:</h3><a name="Topics"></a>
                         <ol type="a" class="collapsibleList">
-                            <li>
-                                <label for="Ratios">Ratios</label>
+                            <li><h3 style="color: #000080;">Ratios</h3>
                                 <ol type="a">
-                                    <li><span style="color: #000080;" xml="lang">1a) </span><a href="#ratiosa"><span style="color: #e4771a;" xml="lang">Q: If an organized activity runs short on screened helpers, is it OK for parents / caregivers to help out or can we also include other people connected to our organization to assist?</span></a></li>
+                                    <li><a href="#ratiosa"><span style="color: #e4771a;" >Q: If an organized activity runs short on screened helpers, is it OK for parents / caregivers to help out or can we also include other people connected to our organization to assist?</span></a></li>
                                 </ol>
                             </li>
                             <li><a href="#Leadership">Leadership Buy-In</a></li>
