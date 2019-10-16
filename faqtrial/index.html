@@ -3,6 +3,54 @@
   <head>
     <title>Plan to Protect FAQ Trial Page</title>
     <link rel="stylesheet" href="css/screen.css" />
+ /* Collapsable List Test */
+      .collapsibleList li > input + * {display: none;}
+ 
+		.collapsibleList li > input:checked + * {display: block;}
+
+		.collapsibleList li > input {display: none;}
+
+		ol {
+            counter-reset: li; /* Initiate a counter */
+		    list-style: none; /* Remove default numbering */
+		    padding: 0;
+		    margin-bottom: 4em;
+		    text-shadow: 0 1px 0 rgba(0,0,0,.2);}
+		
+        ol ol {
+			margin: 0 0 0 2em;}
+      
+        .collapsibleList a, label {
+			letter-spacing: .05em;
+			font-variant: small-caps;
+			font-weight: bold !important;
+		    position: relative;
+		    display: block;
+		    padding: .4em .4em .4em 2em;
+		    *padding: .4em;
+		    margin: .5em 0;
+		    background: #CAAD6B;
+		    color: #FFF;
+		    text-decoration: none !important;
+		    border-radius: .3em;
+		    transition: all .3s ease-out;}
+
+		.collapsibleList a:before {
+		    content: counter(li);
+		    counter-increment: li;
+		    position: absolute; 
+		    left: -1.3em;
+		    top: 50%;
+		    margin-top: -1.3em;
+		    background: #581A0F;
+		    color: #FFFFFF;
+		    height: 2em;
+		    width: 2em;
+		    line-height: 2em;
+		    border: .2em solid #FFF;
+		    text-align: center;
+		    border-radius: 2em;
+		    transition: all .3s ease-out;}
   </head>
   <body>
     <header>                
