@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="css/screen.css" />
  /* Collapsable List Test */
     <style>
-      .collapsibleList li > input + * {display: none;}
- 
-		.collapsibleList li > input:checked + * {display: block;}
+        .collapsibleList li > input + * {display: none;}
+        
+        .collapsibleList li > input:checked + * {display: block;}
 
 		.collapsibleList li > input {display: none;}
 
@@ -37,7 +37,7 @@
 		    transition: all .3s ease-out;}
 
 		.collapsibleList a:before {
-		    content: counter(li);
+		    content: counter(li, lower-alpha);
 		    counter-increment: li;
 		    position: absolute; 
 		    left: -1.3em;
