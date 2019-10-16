@@ -13,7 +13,6 @@
 
 		ol {
             counter-reset: li; /* Initiate a counter */
-		    list-style: none; /* Remove default numbering */
 		    padding: 0;
 		    margin-bottom: 4em;
 		    text-shadow: 0 1px 0 rgba(0,0,0,.2);}
@@ -36,7 +35,7 @@
 		    border-radius: .3em;
 		    transition: all .3s ease-out;}
 
-		.collapsibleList li:before {
+		.collapsibleList a:before {
 		    content: counter(li, lower-alpha);
 		    counter-increment: li;
 		    position: absolute; 
