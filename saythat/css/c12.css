@@ -65,13 +65,15 @@ button:hover, button.active {
 #content {
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-columns: 5% 90% 5%;
     grid-template-rows: auto;}
 
 #gallery {
-	text-align: center;
-	margin: 30px auto 20px auto;
     grid-column: 2/3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2em;
+    grid-template-rows: 130px, repeat(1fr); 
    }
 
 #gallery img {
@@ -84,7 +86,7 @@ button:hover, button.active {
     -webkit-box-shadow: 2px 2px #ebebeb;
     box-shadow: 2px 2px #ebebeb;
 	border: 3px solid #fff;
-    float: left;}
+    }
 
 .episode:hover {
     -webkit-transform: scale(1.8));
@@ -95,7 +97,8 @@ button:hover, button.active {
     height:106px;
     clip-path: inset(0 30% 0 0);
     float: left;
-    overflow: hidden;}
+    overflow: hidden;
+    grid-column: 1/5}
 
 /* Footer */
 #footer {
