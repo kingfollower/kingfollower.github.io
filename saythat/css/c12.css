@@ -7,6 +7,18 @@ body {
 	font-family: ‘Karla’, sans-serif;
     color: #333;}
 
+
+body::-webkit-scrollbar {
+    width: .8em;
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
 /* Header */
 header {
     background-color: black;
@@ -19,10 +31,15 @@ header {
 	min-height: 350px;
 	text-align: left bottom;}
 
-h1 {margin: 10px auto 5px auto;
-  text-align: center center;
-  color: whitesmoke;
-  font-size: 300%}
+h1 {
+    margin: 10px auto 5px auto;
+    text-align: center center;
+    color: whitesmoke;
+    font-size: 8vh;
+    min-width: 10%;
+    min-height: 30px;
+    text-align: left;
+}
 
 h2 {
 	font-size: 180%;
@@ -41,7 +58,22 @@ h4 {
 	margin-bottom: 30px;
     margin-top: 30px;
     margin-left: 50px;
-    margin-right: 50px}
+    margin-right: 50px;
+    height: 30vh; 
+    overflow-y: scroll;
+}
+
+#buttons::-webkit-scrollbar {
+    width: 1em;
+}
+#buttons::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#buttons::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
 
 /* Filter buttons */
 
@@ -60,6 +92,7 @@ button:hover, button.active {
 	color: #fff;
 	cursor: pointer;}
 
+
 /* Gallery of images */
 
 #content {
@@ -70,14 +103,15 @@ button:hover, button.active {
 
 #gallery {
     grid-column: 2/3;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 2em;
-    grid-template-rows: 130px, repeat(1fr); 
+    display: flex;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 0px none black;
    }
 
 #gallery img {
-    margin: 6px;
+    margin: 16px;
 }
 
 .episode {
@@ -94,7 +128,8 @@ button:hover, button.active {
     transform: scale(1.8);}
 
 .banner {
-    height:106px;
+    height:auto;
+    width: 100vw;
     clip-path: inset(0 30% 0 0);
     float: left;
     overflow: hidden;
