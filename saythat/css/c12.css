@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #333333;
+	font-family: ‘Karla’, sans-serif;
+    color: #333;}
+
+body::-webkit-scrollbar {
+    width: .8em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+/* Header */
+header {
+    background-color: black;
+	background-image: url(https://images.squarespace-cdn.com/content/v1/5c81aca97046800c9344398d/1562162993886-MT4SP98GTCUAX4JMPZXI/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/Podcasts.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+	margin: 0 0 40px 0;
+	padding: 10px 0 0 0;
+	min-height: 350px;
+	text-align: left bottom;}
+
+h1 {
+    margin: 10px auto 5px auto;
+    text-align: center center;
+    color: whitesmoke;
+    font-size: 8vh;
+    min-width: 10%;
+    min-height: 30px;
+    text-align: left;
+}
+
+h2 {
+	font-size: 180%;
+	margin: 0;}
+h2, h4 {
+	font-weight: normal;}
+h4 {
+	color: whitesmoke;
+	display: inline-block;
+	font-size: 120%;
+	margin: 5px 0 5px 0;
+    font-family: 'Karla', sans-serif;}
+
+#buttons, #search {
+	text-align: center;
+	margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 30vh; 
+    overflow-y: scroll;
+}
+
+#buttons::-webkit-scrollbar {
+    width: 1em;
+}
+#buttons::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#buttons::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+/* Filter buttons */
+
+button {
+	background-color: #d7d7d7;
+	border: none;
+	padding: 3px 9px 3px 9px;
+	border-radius: 4px;
+	color: #333;
+    margin: 4px;
+	font-family: ‘Karla’, sans-serif;
+	font-size: 100%;}
+
+button:hover, button.active {
+	background-color: #00cccc;
+	color: #fff;
+	cursor: pointer;}
+
+
+/* Gallery of images */
+
+#content {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: auto;}
+
+#gallery {
+    grid-column: 2/3;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 0px none black;
+   }
+
+#gallery img {
+    margin: 16px;
+}
+
+.episode {
+    width: 240px;
+    height: 180px;
+    -webkit-box-shadow: 2px 2px #ebebeb;
+    box-shadow: 2px 2px #ebebeb;
+	border: 3px solid #fff;
+    }
+
+.episode:hover {
+    -webkit-transform: scale(1.8));
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);}
+
+
+
+
+
+
+.banner {
+    height:auto;
+    width: 100vw;
+    clip-path: inset(0 30% 0 0);
+    float: left;
+    overflow: hidden;
+    grid-column: 1/5}
+
+/* Footer */
+#footer {
+    text-align: center;
+    margin: 30px auto 30px auto;}
